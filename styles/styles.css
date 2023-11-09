@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comic Neue', cursive; /* Changing to a more fun font */
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0fe; /* Light blue background for a fresh look */
+}
+
+header {
+    background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%); /* Gradient background for the header */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow to the header */
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#hero h1 {
+    color: #333;
+    text-shadow: 2px 2px #ffd700; /* Adding a shadow to the title for a fun effect */
+}
+
+#hero p {
+    color: #666;
+}
+
+#signupForm {
+    margin: 20px auto; /* Adjusting margin to auto for horizontal centering */
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+    display: block; /* Changed from inline-block for better control */
+    width: fit-content; /* Ensures the form only takes the space it needs */
+}
+
+#signupForm label {
+    display: block;
+    margin-top: 20px;
+}
+
+#signupForm input {
+    width: 200px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding an inner shadow to inputs */
+}
+
+#signupForm button {
+    display: block; /* This will help center the button */
+    width: 220px; /* Same width as the input fields */
+    margin: 20px auto; /* Auto margins for horizontal centering */
+    padding: 10px 15px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+#signupForm button:hover {
+    background: #4cae4c;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

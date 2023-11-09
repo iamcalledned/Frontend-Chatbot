@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to IAmCalledNed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation bar content -->
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <p>Join us and start building your own chatbot experience.</p>
+            <button id="createAccount">Create Account</button>
+            <p>Already have an account?</p> 
+	        <button id="showLogin">Login</button>
+        </section>
+        <section id="signup" style="display:none;">
+            <form id="signupForm">
+            <label for="user-id">User ID</label>
+            <input type="text" id="user-id" name="user_id" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+             <!-- Add Confirm Password field -->
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm_password" required>
+            
+            <button type="submit">Sign Up</button>
+            </form>
+        </section>
+          <!-- Login Section -->
+        <section id="login" style="display:none;">
+            <h2>Login to Your Account</h2>
+        <form id="loginForm">
+      <label for="login-email">Email</label>
+      <input type="email" id="login-email" name="email" required>
+
+      <label for="login-password">Password</label>
+      <input type="password" id="login-password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <button id="showSignup">Sign up</button></p>
+  </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
